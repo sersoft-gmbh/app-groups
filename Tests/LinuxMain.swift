@@ -3,5 +3,6 @@ import XCTest
 import AppGroupsTests
 
 var tests = [XCTestCaseEntry]()
-tests += AppGroupsTests.allTests()
+tests += AppGroupsTests.__allTests()
+
 XCTMain(tests)
