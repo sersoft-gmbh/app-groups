@@ -55,7 +55,7 @@ jobs:
     runs-on: macos-11
     strategy:
       matrix:
-        action: [test]
+        action: [ test ]
         destination:
           - platform=macOS
           - platform=iOS Simulator,OS=latest,name=iPhone 11 Pro
