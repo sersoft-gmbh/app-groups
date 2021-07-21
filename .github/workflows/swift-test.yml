@@ -84,7 +84,7 @@ jobs:
           enable-code-coverage: true
           # parallel-testing-enabled: ${{matrix.parallel-testing-enabled}}
           # enable-code-coverage: ${{matrix.enable-code-coverage}}
-      - uses: sersoft-gmbh/xcode-coverage@main
+      - uses: sersoft-gmbh/xcode-coverage-action@main
         id: xcode-cov
       - uses: codecov/codecov-action@v1.5.2
         with:
