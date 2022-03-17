@@ -40,9 +40,6 @@ jobs:
           key: ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-${{hashFiles('**/Package.resolved')}}
           restore-keys: |
             ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-
-      - name: Workaround Package.resolved format issues
-        if: ${{ startsWith(steps.swift-version.outputs.version, '5.5') }}
-        run: rm -rf Package.resolved
       - name: Build & Test
         run: swift test -v --parallel --enable-code-coverage
       - name: Generate Coverage Files
@@ -79,9 +76,6 @@ jobs:
         with:
           xcode-version: ^13.0
       - uses: actions/checkout@v3.0.0
-      - name: Workaround Package.resolved format issues
-        if: ${{ startsWith(steps.swift-version.outputs.version, '5.5') }}
-        run: rm -rf Package.resolved
       - uses: sersoft-gmbh/xcodebuild-action@v1.8.0
         with:
           spm-package: './'
