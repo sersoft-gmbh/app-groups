@@ -69,3 +69,8 @@ extension AppGroup {
         }
     }
 }
+
+#if compiler(>=5.5) && canImport(_Concurrency)
+extension AppGroup: Sendable {}
+//extension AppGroup.FileSystem: Sendable {} // currently missing `URL`'s conformance to `Sendable`
+#endif
