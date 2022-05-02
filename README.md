@@ -4,7 +4,7 @@
 ![Tests](https://github.com/sersoft-gmbh/app-groups/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/74c834e51f6c42bdba5fdd5718f7bb42)](https://www.codacy.com/gh/sersoft-gmbh/app-groups/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/app-groups&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/app-groups/branch/main/graph/badge.svg?token=3FKU261VRC)](https://codecov.io/gh/sersoft-gmbh/app-groups)
-[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/app-groups)
+[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/app-groups/documentation/app-groups)
 
 A simple model for accessing app groups.
 
@@ -42,7 +42,7 @@ While not yet integrated, the following features might provide added value and c
 
 ## Documentation
 
-The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/app-groups) available for you.
+The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/app-groups/documentation/app-groups) available for you.
 
 ## Contributing
 
