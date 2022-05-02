@@ -4,7 +4,7 @@
 ![Tests](https://github.com/sersoft-gmbh/app-groups/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/74c834e51f6c42bdba5fdd5718f7bb42)](https://www.codacy.com/gh/sersoft-gmbh/app-groups/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/app-groups&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/app-groups/branch/main/graph/badge.svg?token=3FKU261VRC)](https://codecov.io/gh/sersoft-gmbh/app-groups)
-[![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/app-groups/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/app-groups)
+[![docs](https://raw.githubusercontent.com/sersoft-gmbh/app-groups/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/app-groups)
 
 A simple model for accessing app groups.
 
