@@ -23,16 +23,10 @@ public struct AppGroup: Hashable, Codable {
         self.identifier = identifier
     }
 
-    /// See `Decodable.init(from:)`
-    /// - Parameter decoder: The decoder.
-    /// - Throws: `DecodingError`
     public init(from decoder: Decoder) throws {
         try self.init(identifier: decoder.singleValueContainer().decode(String.self))
     }
 
-    /// See `Encodable.encode(to:)`
-    /// - Parameter encoder: The encoder.
-    /// - Throws: `EncodingError`
     public func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
         try container.encode(identifier)
@@ -51,19 +45,19 @@ extension AppGroup {
         }
 
         /// The "Application Support" directory inside the "Library" folder.
-        /// - SeeAlso: `library`
+        /// - SeeAlso: ``library``
         public var applicationSupport: URL {
             library.appendingPathComponent("Application Support", isDirectory: true)
         }
 
         /// The "Caches" directory inside the "Library" folder.
-        /// - SeeAlso: `library`
+        /// - SeeAlso: ``library``
         public var caches: URL {
             library.appendingPathComponent("Caches", isDirectory: true)
         }
 
         /// The "Preferences" directory inside the "Library" folder.
-        /// - SeeAlso: `library`
+        /// - SeeAlso: ``library``
         public var preferences: URL {
             library.appendingPathComponent("Preferences", isDirectory: true)
         }
