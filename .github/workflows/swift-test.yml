@@ -21,7 +21,7 @@ jobs:
         with:
           xcode-version: ^13.0
       - uses: swift-actions/setup-swift@v1.15.0
-        # id: swift-setup
+        if: runner.os == 'Linux'
         id: swift-setup-linux
         with:
           swift-version: ${{matrix.swift-version}}
