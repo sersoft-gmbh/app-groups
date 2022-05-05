@@ -32,22 +32,20 @@ jobs:
     if: ${{ needs.check-release.outputs.should-publish == 'true' }}
     runs-on: macos-11
     steps:
-      - uses: fwal/setup-swift@v1.14.0
+      - uses: swift-actions/setup-swift@v1.15.0
+        id: swift-setup
         with:
           swift-version: '5.6'
       - name: Read OS Version
         uses: sersoft-gmbh/os-version-action@v1.0.0
         id: os-version
-      - name: Read Swift Version
-        uses: sersoft-gmbh/swift-version-action@v1.0.1
-        id: swift-version
       - uses: actions/checkout@v3.0.2
       - uses: actions/cache@v3.0.2
         with:
           path: .build
-          key: ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-${{hashFiles('**/Package.resolved')}}
+          key: ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-setup.outputs.version}}-${{hashFiles('**/Package.resolved')}}
           restore-keys: |
-            ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-version.outputs.version}}-
+            ${{runner.os}}-${{steps.os-version.outputs.version}}-${{github.repository}}-spm-${{steps.swift-setup.outputs.version}}-
       - uses: sersoft-gmbh/swifty-docs-action@v2.0.1
         env:
           ENABLE_DOCC_SUPPORT: '1'
