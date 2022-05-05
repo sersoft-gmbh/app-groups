@@ -23,7 +23,7 @@ jobs:
       - uses: swift-actions/setup-swift@v1.15.0
         id: swift-setup
         with:
-          swift-version: '5.6.0'
+          swift-version: ${{matrix.swift-version}}
       - name: Read OS Version
         uses: sersoft-gmbh/os-version-action@v1.0.0
         id: os-version
