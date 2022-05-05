@@ -32,7 +32,7 @@ jobs:
     if: ${{ needs.check-release.outputs.should-publish == 'true' }}
     runs-on: macos-11
     steps:
-      - uses: fwal/setup-swift@v1.14.0
+      - uses: fwal/setup-swift@v1.15.0
         with:
           swift-version: '5.6'
       - name: Read OS Version
