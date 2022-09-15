@@ -84,7 +84,8 @@
     {
       "identifiers" : [
         "doc:\/\/AppGroups\/SQ",
-        "doc:\/\/AppGroups\/SH"
+        "doc:\/\/AppGroups\/SH",
+        "doc:\/\/AppGroups\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -93,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -416,6 +417,11 @@
   "title" : "root",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/root"
+},
+"doc://AppGroups/s8SendableP": {
+  "identifier" : "doc:\/\/AppGroups\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

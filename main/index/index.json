@@ -1,0 +1,151 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/applicationsupport",
+                    "title" : "var applicationSupport: URL",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/caches",
+                    "title" : "var caches: URL",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/library",
+                    "title" : "var library: URL",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/preferences",
+                    "title" : "var preferences: URL",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/root",
+                    "title" : "let root: URL",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct",
+                "title" : "AppGroup.FileSystem",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/init(identifier:)",
+                "title" : "init(identifier: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.property",
+                "title" : "var fileSystem: AppGroup.FileSystem?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/identifier",
+                "title" : "let identifier: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/userdefaults",
+                "title" : "var userDefaults: UserDefaults?",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/appgroups\/appgroup\/encode(to:)",
+                "title" : "func encode(to: Encoder) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/appgroups\/appgroup\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/appgroups\/appgroup\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/appgroups\/appgroup",
+            "title" : "AppGroup",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/appgroups",
+        "title" : "AppGroups",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}
