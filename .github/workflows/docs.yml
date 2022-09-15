@@ -36,7 +36,7 @@ jobs:
     outputs:
       package-dump: ${{steps.dump-package.outputs.package-dump}}
     steps:
-      - uses: swift-actions/setup-swift@v1.17.0
+      - uses: swift-actions/setup-swift@v1.18.0
         id: swift-setup
         with:
           swift-version: '5.7'
@@ -59,12 +59,12 @@ jobs:
     needs:
       - release-context
       - spm-context
-    runs-on: macos-11
+    runs-on: macos-12
     strategy:
       matrix:
         target: ${{fromJson(needs.spm-context.outputs.package-dump).products.*.targets.*}}
     steps:
-      - uses: swift-actions/setup-swift@v1.17.0
+      - uses: swift-actions/setup-swift@v1.18.0
         id: swift-setup
         with:
           swift-version: '5.7'
