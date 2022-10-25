@@ -1,7 +1,7 @@
 import Foundation
 
 /// Represents an app group.
-public struct AppGroup: Hashable, Codable {
+public struct AppGroup: Hashable, Codable, Sendable {
     /// The identifier of the app group. Usually starts with `group.your-chosen-identifier`.
     public let identifier: String
 
@@ -39,34 +39,39 @@ extension AppGroup {
         /// The root directory of the app group.
         public let root: URL
 
+        private func _appendingDirectory(_ dirName: String, to base: URL) -> URL {
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                return base.appending(component: dirName, directoryHint: .isDirectory)
+            } else {
+                return base.appendingPathComponent(dirName, isDirectory: true)
+            }
+        }
+
         /// The "Library" directory inside the app group.
         public var library: URL {
-            root.appendingPathComponent("Library", isDirectory: true)
+            _appendingDirectory("Library", to: root)
         }
 
         /// The "Application Support" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var applicationSupport: URL {
-            library.appendingPathComponent("Application Support", isDirectory: true)
+            _appendingDirectory("Application Support", to: library)
         }
 
         /// The "Caches" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var caches: URL {
-            library.appendingPathComponent("Caches", isDirectory: true)
+            _appendingDirectory("Caches", to: library)
         }
 
         /// The "Preferences" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var preferences: URL {
-            library.appendingPathComponent("Preferences", isDirectory: true)
+            _appendingDirectory("Preferences", to: library)
         }
     }
 }
 
-#if compiler(>=5.5) && canImport(_Concurrency)
-extension AppGroup: Sendable {}
 #if compiler(>=5.7)
 extension AppGroup.FileSystem: Sendable {}
-#endif
 #endif
