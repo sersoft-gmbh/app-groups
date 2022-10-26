@@ -40,11 +40,15 @@ extension AppGroup {
         public let root: URL
 
         private func _appendingDirectory(_ dirName: String, to base: URL) -> URL {
+#if canImport(Darwin) && compiler(>=5.7.1)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return base.appending(component: dirName, directoryHint: .isDirectory)
             } else {
                 return base.appendingPathComponent(dirName, isDirectory: true)
             }
+#else
+            return base.appendingPathComponent(dirName, isDirectory: true)
+#endif
         }
 
         /// The "Library" directory inside the app group.
