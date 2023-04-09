@@ -375,7 +375,7 @@
       "type" : "text"
     },
     {
-      "code" : "group.your-chosen-identifier",
+      "code" : "group.",
       "type" : "codeVoice"
     },
     {
