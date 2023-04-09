@@ -2,7 +2,7 @@ import Foundation
 
 /// Represents an app group.
 public struct AppGroup: Hashable, Codable, Sendable {
-    /// The identifier of the app group. Usually starts with `group.your-chosen-identifier`.
+    /// The identifier of the app group. Usually starts with `group.`.
     public let identifier: String
 
     /// The user defaults for this app group. `nil` if the app group is not valid.
@@ -39,40 +39,42 @@ extension AppGroup {
         /// The root directory of the app group.
         public let root: URL
 
-        private func _appendingDirectory(_ dirName: String, to base: URL) -> URL {
-#if canImport(Darwin) && compiler(>=5.7.1)
-            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
-                return base.appending(component: dirName, directoryHint: .isDirectory)
-            } else {
-                return base.appendingPathComponent(dirName, isDirectory: true)
-            }
-#else
-            return base.appendingPathComponent(dirName, isDirectory: true)
-#endif
-        }
-
         /// The "Library" directory inside the app group.
         public var library: URL {
-            _appendingDirectory("Library", to: root)
+            root._appendingDirectory("Library")
         }
 
         /// The "Application Support" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var applicationSupport: URL {
-            _appendingDirectory("Application Support", to: library)
+            library._appendingDirectory("Application Support")
         }
 
         /// The "Caches" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var caches: URL {
-            _appendingDirectory("Caches", to: library)
+            library._appendingDirectory("Caches")
         }
 
         /// The "Preferences" directory inside the "Library" folder.
         /// - SeeAlso: ``library``
         public var preferences: URL {
-            _appendingDirectory("Preferences", to: library)
+            library._appendingDirectory("Preferences")
         }
+    }
+}
+
+fileprivate extension URL {
+    func _appendingDirectory(_ dirName: String) -> URL {
+#if canImport(Darwin) && compiler(>=5.7.1)
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                return appending(component: dirName, directoryHint: .isDirectory)
+            } else {
+                return appendingPathComponent(dirName, isDirectory: true)
+            }
+#else
+            return appendingPathComponent(dirName, isDirectory: true)
+#endif
     }
 }
 
