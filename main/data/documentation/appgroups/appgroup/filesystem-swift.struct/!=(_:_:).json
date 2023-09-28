@@ -70,7 +70,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppGroups"
+        "name" : "AppGroups",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",

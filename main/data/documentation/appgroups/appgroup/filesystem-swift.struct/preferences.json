@@ -102,6 +102,38 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/library",
+                  "isActive" : true,
+                  "type" : "reference"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "See Also",
+          "style" : "note",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -204,6 +236,43 @@
   "title" : "AppGroup.FileSystem",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/library": {
+  "abstract" : [
+    {
+      "text" : "The “Library” directory inside the app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "library"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/library",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "library",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/library"
 },
 "doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/preferences": {
   "abstract" : [
