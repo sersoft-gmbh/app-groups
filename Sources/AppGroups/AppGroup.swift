@@ -1,7 +1,7 @@
 import Foundation
 
 /// Represents an app group.
-public struct AppGroup: Hashable, Codable, Sendable {
+public struct AppGroup: Sendable, Hashable, Codable {
     /// The identifier of the app group. Usually starts with `group.`.
     public let identifier: String
 
@@ -23,11 +23,11 @@ public struct AppGroup: Hashable, Codable, Sendable {
         self.identifier = identifier
     }
 
-    public init(from decoder: Decoder) throws {
+    public init(from decoder: any Decoder) throws {
         try self.init(identifier: decoder.singleValueContainer().decode(String.self))
     }
 
-    public func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: any Encoder) throws {
         var container = encoder.singleValueContainer()
         try container.encode(identifier)
     }
@@ -35,7 +35,7 @@ public struct AppGroup: Hashable, Codable, Sendable {
 
 extension AppGroup {
     /// Computes paths for the file system inside an app group.
-    public struct FileSystem: Hashable {
+    public struct FileSystem: Sendable, Hashable {
         /// The root directory of the app group.
         public let root: URL
 
@@ -66,7 +66,7 @@ extension AppGroup {
 
 fileprivate extension URL {
     func _appendingDirectory(_ dirName: String) -> URL {
-#if canImport(Darwin) && compiler(>=5.7.1)
+#if canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return appending(component: dirName, directoryHint: .isDirectory)
             } else {
@@ -77,7 +77,3 @@ fileprivate extension URL {
 #endif
     }
 }
-
-#if compiler(>=5.7)
-extension AppGroup.FileSystem: Sendable {}
-#endif

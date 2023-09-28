@@ -17,7 +17,7 @@ final class AppGroupTests: XCTestCase {
     }
 
     func testCodable() throws {
-        struct Wrapper: Codable {
+        struct Wrapper: Sendable, Codable {
             let group: AppGroup
         }
         

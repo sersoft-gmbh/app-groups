@@ -12,7 +12,7 @@ A simple model for accessing app groups.
 
 Add the following dependency to your `Package.swift`:
 ```swift
-.package(url: "https://github.com/sersoft-gmbh/app-groups.git", from: "1.0.0"),
+.package(url: "https://github.com/sersoft-gmbh/app-groups", from: "1.0.0"),
 ```
 
 Or add it via Xcode (as of Xcode 11).
