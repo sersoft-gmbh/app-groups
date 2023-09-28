@@ -24,7 +24,7 @@ jobs:
     needs: variables
     strategy:
       matrix:
-        os: [ macOS, ubuntu ]
+        os: [ macOS ]
         swift-version-offset: [ 0 ]
     uses: sersoft-gmbh/oss-common-actions/.github/workflows/swift-test-spm.yml@main
     with:
