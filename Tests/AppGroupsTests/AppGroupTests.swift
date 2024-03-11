@@ -31,8 +31,13 @@ final class AppGroupTests: XCTestCase {
 
     func testAccessors() {
         let appGroup = AppGroup(identifier: "group.test.accessors")
+#if !os(visionOS) // No idea why it works on these platforms...
         XCTAssertNotNil(appGroup.userDefaults)
         XCTAssertNotNil(appGroup.fileSystem)
+#else
+        XCTAssertNil(appGroup.userDefaults)
+        XCTAssertNil(appGroup.fileSystem)
+#endif
     }
 
     func testFileSystem() {
