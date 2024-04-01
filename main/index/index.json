@@ -75,7 +75,7 @@
               },
               {
                 "path" : "\/documentation\/appgroups\/appgroup\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -108,7 +108,7 @@
               },
               {
                 "path" : "\/documentation\/appgroups\/appgroup\/encode(to:)",
-                "title" : "func encode(to: Encoder) throws",
+                "title" : "func encode(to: any Encoder) throws",
                 "type" : "method"
               },
               {
