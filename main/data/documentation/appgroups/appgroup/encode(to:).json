@@ -58,6 +58,10 @@
         "name" : "AppGroups"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppGroup.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/Sources\/AppGroups\/AppGroup.swift#L30"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",

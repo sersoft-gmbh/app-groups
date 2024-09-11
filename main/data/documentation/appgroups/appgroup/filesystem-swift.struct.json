@@ -46,6 +46,10 @@
         "text" : "FileSystem"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppGroup.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/Sources\/AppGroups\/AppGroup.swift#L38"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",
