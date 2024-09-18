@@ -1,4 +1,4 @@
-import Foundation
+public import Foundation
 
 /// Represents an app group.
 public struct AppGroup: Sendable, Hashable, Codable {
