@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/!=(_:_:)"

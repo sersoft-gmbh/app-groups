@@ -106,12 +106,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(from:)",
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(identifier:)"
@@ -119,6 +123,8 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/fileSystem-swift.property",
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/identifier",
@@ -127,12 +133,15 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/encode(to:)"
       ],
       "title" : "Instance Methods"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/Equatable-Implementations"

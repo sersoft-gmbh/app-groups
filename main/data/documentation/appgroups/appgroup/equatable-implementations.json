@@ -32,6 +32,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/!=(_:_:)"
