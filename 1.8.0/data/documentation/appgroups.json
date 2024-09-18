@@ -1,0 +1,104 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "AppGroups",
+    "modules" : [
+      {
+        "name" : "AppGroups"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "AppGroups"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appgroups"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppGroups/documentation/AppGroups": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppGroups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup": {
+  "abstract" : [
+    {
+      "text" : "Represents an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup"
+}
+}
+}
