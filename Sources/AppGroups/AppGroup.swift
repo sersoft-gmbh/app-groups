@@ -66,7 +66,7 @@ extension AppGroup {
 
 fileprivate extension URL {
     func _appendingDirectory(_ dirName: String) -> URL {
-#if canImport(Darwin)
+#if swift(>=6.0) || canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return appending(component: dirName, directoryHint: .isDirectory)
             } else {
