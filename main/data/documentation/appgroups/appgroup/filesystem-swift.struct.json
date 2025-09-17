@@ -82,6 +82,12 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "mentions",
+      "mentions" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation"
+      ]
     }
   ],
   "relationshipsSections" : [
@@ -89,7 +95,8 @@
       "identifiers" : [
         "doc:\/\/AppGroups\/SQ",
         "doc:\/\/AppGroups\/SH",
-        "doc:\/\/AppGroups\/s8SendableP"
+        "doc:\/\/AppGroups\/s8SendableP",
+        "doc:\/\/AppGroups\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -424,6 +431,25 @@
   "title" : "root",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/root"
+},
+"doc://AppGroups/documentation/AppGroups/Documentation": {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "App Groups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/documentation"
+},
+"doc://AppGroups/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppGroups\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://AppGroups/s8SendableP": {
   "identifier" : "doc:\/\/AppGroups\/s8SendableP",

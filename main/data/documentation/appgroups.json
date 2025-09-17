@@ -33,6 +33,14 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Articles",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation"
+      ],
+      "title" : "Articles"
+    },
+    {
       "anchor" : "Structures",
       "generated" : true,
       "identifiers" : [
@@ -99,6 +107,20 @@
   "title" : "AppGroup",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup"
+},
+"doc://AppGroups/documentation/AppGroups/Documentation": {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "App Groups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/documentation"
 }
 }
 }
