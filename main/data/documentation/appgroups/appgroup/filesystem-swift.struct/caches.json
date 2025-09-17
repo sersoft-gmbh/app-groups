@@ -164,7 +164,10 @@
 "references": {
 "doc://AppGroups/documentation/AppGroups": {
   "abstract" : [
-
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
   "kind" : "symbol",

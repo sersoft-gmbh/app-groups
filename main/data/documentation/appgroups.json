@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -23,6 +29,136 @@
     "symbolKind" : "module",
     "title" : "AppGroups"
   },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Installation",
+          "level" : 2,
+          "text" : "Installation",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Add the following dependency to your ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            ".package(url: \"https:\/\/github.com\/sersoft-gmbh\/app-groups\", from: \"1.0.0\"),"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Or add it via Xcode (as of Xcode 11).",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Usage",
+          "level" : 2,
+          "text" : "Usage",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To use this package, simply create an ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " using the identifier of your app group (which you set up in Xcode’s capabilities tab):",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let appGroup = AppGroup(identifier: \"group.your.app.group.identifier\")"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "With that you can access the user defaults or file system:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let userDefaults = appGroup.userDefaults \/\/ `nil` if the app group is not valid.",
+            "let fileSystem = appGroup.fileSystem \/\/ `nil` if the app group is not valid."
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " object gives access to a few directories that are (usually) created when you access an app group.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For easier access and discoverability in your code, you can also add an extension:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "extension AppGroup {",
+            "    static let myAppGroup = AppGroup(identifier: \"group.your.app.group.identifier\")",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -32,14 +168,6 @@
 
   ],
   "topicSections" : [
-    {
-      "anchor" : "Articles",
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation"
-      ],
-      "title" : "Articles"
-    },
     {
       "anchor" : "Structures",
       "generated" : true,
@@ -65,7 +193,10 @@
 "references": {
 "doc://AppGroups/documentation/AppGroups": {
   "abstract" : [
-
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
   "kind" : "symbol",
@@ -108,19 +239,39 @@
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup"
 },
-"doc://AppGroups/documentation/AppGroups/Documentation": {
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct": {
   "abstract" : [
     {
-      "text" : "A simple model for accessing app groups.",
+      "text" : "Computes paths for the file system inside an app group.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "App Groups",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup.FileSystem",
   "type" : "topic",
-  "url" : "\/documentation\/appgroups\/documentation"
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct"
 }
 }
 }

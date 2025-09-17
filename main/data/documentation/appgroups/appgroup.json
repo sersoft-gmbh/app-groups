@@ -80,12 +80,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "mentions",
-      "mentions" : [
-        "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation"
-      ]
     }
   ],
   "relationshipsSections" : [
@@ -192,7 +186,10 @@
 },
 "doc://AppGroups/documentation/AppGroups": {
   "abstract" : [
-
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
   "kind" : "symbol",
@@ -564,20 +561,6 @@
   "title" : "userDefaults",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/userdefaults"
-},
-"doc://AppGroups/documentation/AppGroups/Documentation": {
-  "abstract" : [
-    {
-      "text" : "A simple model for accessing app groups.",
-      "type" : "text"
-    }
-  ],
-  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/Documentation",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "App Groups",
-  "type" : "topic",
-  "url" : "\/documentation\/appgroups\/documentation"
 },
 "doc://AppGroups/s16SendableMetatypeP": {
   "identifier" : "doc:\/\/AppGroups\/s16SendableMetatypeP",
