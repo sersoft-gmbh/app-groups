@@ -1,0 +1,237 @@
+{
+  "abstract" : [
+    {
+      "text" : "Creates a new app group with the given identifier.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppGroups\/documentation\/AppGroups",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(identifier:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9AppGroups0A5GroupV10identifierACSS_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "identifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppGroups"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "AppGroup.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/blob\/refs\/tags\/1.10.0\/Sources\/AppGroups\/AppGroup.swift#L22"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(identifier:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "identifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The identifier of the new app group.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "identifier"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appgroups\/appgroup\/init(identifier:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppGroups/documentation/AppGroups": {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppGroups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup": {
+  "abstract" : [
+    {
+      "text" : "Represents an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/init(identifier:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new app group with the given identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(identifier:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(identifier:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/init(identifier:)"
+}
+}
+}

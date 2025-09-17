@@ -1,0 +1,576 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents an app group.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppGroups\/documentation\/AppGroups"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9AppGroups0A5GroupV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AppGroup"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppGroups"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AppGroup"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "AppGroup.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/blob\/refs\/tags\/1.10.0\/Sources\/AppGroups\/AppGroup.swift#L4"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "AppGroup"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AppGroup"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AppGroups\/Se",
+        "doc:\/\/AppGroups\/SE",
+        "doc:\/\/AppGroups\/SQ",
+        "doc:\/\/AppGroups\/SH",
+        "doc:\/\/AppGroups\/s8SendableP",
+        "doc:\/\/AppGroups\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(from:)",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(identifier:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/fileSystem-swift.property",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/identifier",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/userDefaults"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/encode(to:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appgroups\/appgroup"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppGroups/SE": {
+  "identifier" : "doc:\/\/AppGroups\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/SH": {
+  "identifier" : "doc:\/\/AppGroups\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/SQ": {
+  "identifier" : "doc:\/\/AppGroups\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/Se": {
+  "identifier" : "doc:\/\/AppGroups\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/documentation/AppGroups": {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppGroups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup": {
+  "abstract" : [
+    {
+      "text" : "Represents an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/equatable-implementations"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Computes paths for the file system inside an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup.FileSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/encode(to:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "to"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7EncoderP",
+      "text" : "Encoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/encode(to:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encode(to:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/encode(to:)"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/fileSystem-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The file system for this app group. ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " if the app group is not valid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileSystem"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9AppGroups0A5GroupV",
+      "text" : "AppGroup"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9AppGroups0A5GroupV10FileSystemV",
+      "text" : "FileSystem"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/fileSystem-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.property"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/identifier": {
+  "abstract" : [
+    {
+      "text" : "The identifier of the app group. Usually starts with ",
+      "type" : "text"
+    },
+    {
+      "code" : "group.",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/identifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "identifier",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/identifier"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/init(from:)"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/init(identifier:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new app group with the given identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/init(identifier:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(identifier:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/init(identifier:)"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/userDefaults": {
+  "abstract" : [
+    {
+      "text" : "The user defaults for this app group. ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " if the app group is not valid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userDefaults"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUserDefaults",
+      "text" : "UserDefaults"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/userDefaults",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "userDefaults",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/userdefaults"
+},
+"doc://AppGroups/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppGroups\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/s8SendableP": {
+  "identifier" : "doc:\/\/AppGroups\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

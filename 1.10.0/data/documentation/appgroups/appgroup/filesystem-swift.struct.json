@@ -1,0 +1,443 @@
+{
+  "abstract" : [
+    {
+      "text" : "Computes paths for the file system inside an app group.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppGroups\/documentation\/AppGroups",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppGroups",
+    "externalID" : "s:9AppGroups0A5GroupV10FileSystemV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileSystem"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppGroups"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileSystem"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "AppGroup.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/blob\/refs\/tags\/1.10.0\/Sources\/AppGroups\/AppGroup.swift#L38"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "AppGroup.FileSystem"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FileSystem"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AppGroups\/SQ",
+        "doc:\/\/AppGroups\/SH",
+        "doc:\/\/AppGroups\/s8SendableP",
+        "doc:\/\/AppGroups\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/applicationSupport",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/caches",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/library",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/preferences",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/root"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppGroups/SH": {
+  "identifier" : "doc:\/\/AppGroups\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/SQ": {
+  "identifier" : "doc:\/\/AppGroups\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/documentation/AppGroups": {
+  "abstract" : [
+    {
+      "text" : "A simple model for accessing app groups.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppGroups",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup": {
+  "abstract" : [
+    {
+      "text" : "Represents an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Computes paths for the file system inside an app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileSystem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppGroup.FileSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/equatable-implementations"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/applicationSupport": {
+  "abstract" : [
+    {
+      "text" : "The “Application Support” directory inside the “Library” folder.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "applicationSupport"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/applicationSupport",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "applicationSupport",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/applicationsupport"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/caches": {
+  "abstract" : [
+    {
+      "text" : "The “Caches” directory inside the “Library” folder.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "caches"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/caches",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "caches",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/caches"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/library": {
+  "abstract" : [
+    {
+      "text" : "The “Library” directory inside the app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "library"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/library",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "library",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/library"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/preferences": {
+  "abstract" : [
+    {
+      "text" : "The “Preferences” directory inside the “Library” folder.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "preferences"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/preferences",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "preferences",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/preferences"
+},
+"doc://AppGroups/documentation/AppGroups/AppGroup/FileSystem-swift.struct/root": {
+  "abstract" : [
+    {
+      "text" : "The root directory of the app group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "root"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/FileSystem-swift.struct\/root",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "root",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.struct\/root"
+},
+"doc://AppGroups/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppGroups\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://AppGroups/s8SendableP": {
+  "identifier" : "doc:\/\/AppGroups\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}
