@@ -6,8 +6,6 @@
 [![codecov](https://codecov.io/gh/sersoft-gmbh/app-groups/branch/main/graph/badge.svg?token=3FKU261VRC)](https://codecov.io/gh/sersoft-gmbh/app-groups)
 [![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/app-groups)
 
-A simple model for accessing app groups.
-
 ## Installation
 
 Add the following dependency to your `Package.swift`:
@@ -16,29 +14,6 @@ Add the following dependency to your `Package.swift`:
 ```
 
 Or add it via Xcode (as of Xcode 11).
-
-## Usage
-
-To use this package, simply create an `AppGroup` using the identifier of your app group (which you set up in Xcode's capabilities tab):
-
-```swift
-let appGroup = AppGroup(identifier: "group.your.app.group.identifier")
-```
-
-With that you can access the user defaults or file system:
-
-```swift
-let userDefaults = appGroup.userDefaults // `nil` if the app group is not valid.
-let fileSystem = appGroup.fileSystem // `nil` if the app group is not valid.
-```
-
-The `AppGroup.FileSystem` object gives access to a few directories that are (usually) created when you access an app group.
-
-## Possible Features
-
-While not yet integrated, the following features might provide added value and could make it into this package in the future:
-
--   Add an `AppGroup.Existing` model that has non-optional properties to make passing around easier.
 
 ## Documentation
 

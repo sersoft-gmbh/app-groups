@@ -1,49 +1,54 @@
-import XCTest
+import Foundation
+import Testing
 @testable import AppGroups
 
-final class AppGroupTests: XCTestCase {
-    func testEquatingAndHashing() {
+@Suite
+struct AppGroupTests {
+    @Test
+    func equatingAndHashing() {
         let appGroup1 = AppGroup(identifier: "group.test.one")
         let appGroup2 = AppGroup(identifier: "group.test.two")
         let appGroup3 = AppGroup(identifier: "group.test.one")
 
-        XCTAssertEqual(appGroup1, appGroup3)
-        XCTAssertNotEqual(appGroup1, appGroup2)
-        XCTAssertNotEqual(appGroup2, appGroup3)
+        #expect(appGroup1 == appGroup3)
+        #expect(appGroup1 != appGroup2)
+        #expect(appGroup2 != appGroup3)
 
-        XCTAssertEqual(appGroup1.hashValue, appGroup3.hashValue)
-        XCTAssertNotEqual(appGroup1.hashValue, appGroup2.hashValue)
-        XCTAssertNotEqual(appGroup2.hashValue, appGroup3.hashValue)
+        #expect(appGroup1.hashValue == appGroup3.hashValue)
+        #expect(appGroup1.hashValue != appGroup2.hashValue)
+        #expect(appGroup2.hashValue != appGroup3.hashValue)
     }
 
-    func testCodable() throws {
+    @Test
+    func codable() throws {
         struct Wrapper: Sendable, Codable {
             let group: AppGroup
         }
         
         let appGroup = AppGroup(identifier: "group.test.coding")
         let data = try JSONEncoder().encode(Wrapper(group: appGroup))
-        XCTAssertEqual(String(decoding: data, as: UTF8.self),
-                       #"{"group":"\#(appGroup.identifier)"}"#)
+        #expect(String(decoding: data, as: UTF8.self) == #"{"group":"\#(appGroup.identifier)"}"#)
         let decodedGroup = try JSONDecoder().decode(Wrapper.self, from: data).group
-        XCTAssertEqual(decodedGroup, appGroup)
+        #expect(decodedGroup == appGroup)
     }
 
-    func testAccessors() {
+    @Test
+    func computedAccessors() {
         let appGroup = AppGroup(identifier: "group.test.accessors")
-        XCTAssertNotNil(appGroup.userDefaults)
-#if !os(visionOS) // No idea why it works on non visionOS platforms...
-        XCTAssertNotNil(appGroup.fileSystem)
+        #expect(appGroup.userDefaults != nil)
+#if !os(visionOS) // No idea why it works for a made up app group on non visionOS platforms...
+        #expect(appGroup.fileSystem != nil)
 #else
-        XCTAssertNil(appGroup.fileSystem)
+        #expect(appGroup.fileSystem == nil)
 #endif
     }
 
-    func testFileSystem() {
+    @Test
+    func fileSystem() {
         let fs = AppGroup.FileSystem(root: URL(fileURLWithPath: "/Somewhere/"))
-        XCTAssertEqual(fs.library.path, "/Somewhere/Library")
-        XCTAssertEqual(fs.applicationSupport.path, "/Somewhere/Library/Application Support")
-        XCTAssertEqual(fs.caches.path, "/Somewhere/Library/Caches")
-        XCTAssertEqual(fs.preferences.path, "/Somewhere/Library/Preferences")
+        #expect(fs.library.path == "/Somewhere/Library")
+        #expect(fs.applicationSupport.path == "/Somewhere/Library/Application Support")
+        #expect(fs.caches.path == "/Somewhere/Library/Caches")
+        #expect(fs.preferences.path == "/Somewhere/Library/Preferences")
     }
 }
