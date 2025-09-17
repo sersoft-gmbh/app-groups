@@ -1,4 +1,4 @@
-# App Groups
+# ``AppGroups``
 
 A simple model for accessing app groups.
 
