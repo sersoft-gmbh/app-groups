@@ -5,10 +5,11 @@ import PackageDescription
 
 let swiftSettings: Array<SwiftSetting> = [
     .swiftLanguageMode(.v6),
+    .strictMemorySafety(),
+    .treatAllWarnings(as: .error),
     .enableUpcomingFeature("ExistentialAny"),
     .enableUpcomingFeature("InternalImportsByDefault"),
     .enableUpcomingFeature("MemberImportVisibility"),
-    .enableUpcomingFeature("StrictMemorySafety"),
 ]
 
 let package = Package(
