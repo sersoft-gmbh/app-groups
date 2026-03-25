@@ -67,9 +67,9 @@ extension AppGroup {
 fileprivate extension URL {
     func _appendingDirectory(_ dirName: String) -> URL {
         if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
-            return appending(component: dirName, directoryHint: .isDirectory)
+            appending(component: dirName, directoryHint: .isDirectory)
         } else {
-            return appendingPathComponent(dirName, isDirectory: true)
+            appendingPathComponent(dirName, isDirectory: true)
         }
     }
 }
