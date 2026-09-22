@@ -89,6 +89,7 @@
         "doc:\/\/AppGroups\/SE",
         "doc:\/\/AppGroups\/SQ",
         "doc:\/\/AppGroups\/SH",
+        "doc:\/\/AppGroups\/s12IdentifiableP",
         "doc:\/\/AppGroups\/s8SendableP",
         "doc:\/\/AppGroups\/s16SendableMetatypeP"
       ],
@@ -128,6 +129,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/fileSystem-swift.property",
+        "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/id",
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/identifier",
         "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/userDefaults"
       ],
@@ -385,6 +387,40 @@
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/filesystem-swift.property"
 },
+"doc://AppGroups/documentation/AppGroups/AppGroup/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/appgroups\/appgroup\/id"
+},
 "doc://AppGroups/documentation/AppGroups/AppGroup/identifier": {
   "abstract" : [
     {
@@ -561,6 +597,11 @@
   "title" : "userDefaults",
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup\/userdefaults"
+},
+"doc://AppGroups/s12IdentifiableP": {
+  "identifier" : "doc:\/\/AppGroups\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
 },
 "doc://AppGroups/s16SendableMetatypeP": {
   "identifier" : "doc:\/\/AppGroups\/s16SendableMetatypeP",

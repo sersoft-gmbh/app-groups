@@ -9,15 +9,15 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/encode(to:)"
+    "url" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/id"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:9AppGroups0A5GroupV6encode2toys7Encoder_p_tKF",
+    "externalID" : "s:9AppGroups0A5GroupV2idSSvp",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "func"
+        "text" : "var"
       },
       {
         "kind" : "text",
@@ -25,32 +25,16 @@
       },
       {
         "kind" : "identifier",
-        "text" : "encode"
+        "text" : "id"
       },
       {
         "kind" : "text",
-        "text" : "("
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "to"
-      },
-      {
-        "kind" : "text",
-        "text" : ": any "
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:s7EncoderP",
-        "text" : "Encoder"
-      },
-      {
-        "kind" : "text",
-        "text" : ") "
-      },
-      {
-        "kind" : "keyword",
-        "text" : "throws"
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
       }
     ],
     "modules" : [
@@ -60,12 +44,12 @@
     ],
     "remoteSource" : {
       "fileName" : "AppGroup.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/blob\/refs\/heads\/main\/Sources\/AppGroups\/AppGroup.swift#L33"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-groups\/blob\/refs\/heads\/main\/Sources\/AppGroups\/AppGroup.swift#L9"
     },
     "role" : "symbol",
-    "roleHeading" : "Instance Method",
-    "symbolKind" : "method",
-    "title" : "encode(to:)"
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "id"
   },
   "primaryContentSections" : [
     {
@@ -80,7 +64,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "func"
+              "text" : "var"
             },
             {
               "kind" : "text",
@@ -88,40 +72,28 @@
             },
             {
               "kind" : "identifier",
-              "text" : "encode"
+              "text" : "id"
             },
             {
               "kind" : "text",
-              "text" : "("
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "to"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "encoder"
-            },
-            {
-              "kind" : "text",
-              "text" : ": any "
+              "text" : ": "
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s7EncoderP",
-              "text" : "Encoder"
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
             },
             {
               "kind" : "text",
-              "text" : ") "
+              "text" : " { "
             },
             {
               "kind" : "keyword",
-              "text" : "throws"
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -140,7 +112,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/appgroups\/appgroup\/encode(to:)"
+        "\/documentation\/appgroups\/appgroup\/id"
       ],
       "traits" : [
         {
@@ -199,14 +171,14 @@
   "type" : "topic",
   "url" : "\/documentation\/appgroups\/appgroup"
 },
-"doc://AppGroups/documentation/AppGroups/AppGroup/encode(to:)": {
+"doc://AppGroups/documentation/AppGroups/AppGroup/id": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "func"
+      "text" : "var"
     },
     {
       "kind" : "text",
@@ -214,40 +186,24 @@
     },
     {
       "kind" : "identifier",
-      "text" : "encode"
+      "text" : "id"
     },
     {
       "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "to"
-    },
-    {
-      "kind" : "text",
-      "text" : ": any "
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s7EncoderP",
-      "text" : "Encoder"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/encode(to:)",
+  "identifier" : "doc:\/\/AppGroups\/documentation\/AppGroups\/AppGroup\/id",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "encode(to:)",
+  "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/appgroups\/appgroup\/encode(to:)"
+  "url" : "\/documentation\/appgroups\/appgroup\/id"
 }
 }
 }
