@@ -33,6 +33,12 @@ struct AppGroupTests {
     }
 
     @Test
+    func identifiable() {
+        let appGroup = AppGroup(identifier: "group.test.identifiable")
+        #expect(appGroup.id == appGroup.identifier)
+    }
+
+    @Test
     func computedAccessors() {
         let appGroup = AppGroup(identifier: "group.test.accessors")
         #expect(appGroup.userDefaults != nil)

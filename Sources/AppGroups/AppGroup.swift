@@ -1,9 +1,12 @@
 public import Foundation
 
 /// Represents an app group.
-public struct AppGroup: Sendable, Hashable, Codable {
+public struct AppGroup: Sendable, Hashable, Codable, Identifiable {
     /// The identifier of the app group. Usually starts with `group.`.
     public let identifier: String
+
+    @inlinable
+    public var id: String { identifier }
 
     /// The user defaults for this app group. `nil` if the app group is not valid.
     public var userDefaults: UserDefaults? {
@@ -37,7 +40,7 @@ extension AppGroup {
     /// Computes paths for the file system inside an app group.
     public struct FileSystem: Sendable, Hashable {
         /// The root directory of the app group.
-        public let root: URL
+        public let root: URL // TODO: Maybe use FilePath once it's in the stdlib: https://github.com/swiftlang/swift/pull/89685
 
         /// The "Library" directory inside the app group.
         public var library: URL {
